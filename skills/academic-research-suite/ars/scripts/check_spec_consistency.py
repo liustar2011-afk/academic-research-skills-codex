@@ -73,6 +73,10 @@ def check_mode_registry() -> None:
 
 def check_claude_md() -> None:
     rel_path = ".claude/CLAUDE.md"
+    if not (ROOT / rel_path).is_file():
+        print(f"Skipping {rel_path} checks: file not present in this distribution.")
+        return
+
     expect_contains(rel_path, "integrity check (Stage 2.5)")
     expect_contains(rel_path, "final integrity check (Stage 4.5)")
     expect_contains(rel_path, "**Suite version**: 3.9.0")
