@@ -1,0 +1,73 @@
+site_name: 学术研究工作台
+site_description: 研究项目状态、任务、成果物和证据的本地可视化门户
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - assets/research-portal.css
+
+nav:
+  - 总览: index.md
+  - 当前项目:
+      - 项目首页: projects/trusted-data-space-power-transfer/index.md
+      - 项目控制台: projects/trusted-data-space-power-transfer/PROJECT_INDEX.md
+      - 当前状态: projects/trusted-data-space-power-transfer/CURRENT_STATE.md
+      - 任务板: projects/trusted-data-space-power-transfer/TASK_BOARD.md
+      - 成果物索引: projects/trusted-data-space-power-transfer/ARTIFACTS.md
+      - 主线-支线矩阵: projects/trusted-data-space-power-transfer/MAIN_BRANCH_MAP.md
+      - 任务-成果物矩阵: projects/trusted-data-space-power-transfer/TASK_ARTIFACT_MAP.md
+      - 证据状态: projects/trusted-data-space-power-transfer/CLAIM_EVIDENCE_MAP.md
+      - 项目健康: projects/trusted-data-space-power-transfer/HEALTH_CHECK.md
+      - 当前阶段成果: projects/trusted-data-space-power-transfer/stage-output-v0.1.md
+      - 论文提纲: projects/trusted-data-space-power-transfer/paper-outline.md
+      - 四化一扩散模型: projects/trusted-data-space-power-transfer/four-transformations-model.md
+      - 支线 B-002 报告: projects/trusted-data-space-power-transfer/branch-b002-report.md
+      - 支线 B-002 证据表: projects/trusted-data-space-power-transfer/branch-b002-evidence.md
+      - 支线 B-002 影响分析: projects/trusted-data-space-power-transfer/branch-b002-implications.md
+      - 支线 B-002 汇入建议: projects/trusted-data-space-power-transfer/branch-b002-handoff.md
+      - 支线 B-003 报告: projects/trusted-data-space-power-transfer/branch-b003-report.md
+      - 支线 B-003 证据表: projects/trusted-data-space-power-transfer/branch-b003-evidence.md
+      - 支线 B-003 影响分析: projects/trusted-data-space-power-transfer/branch-b003-implications.md
+      - 支线 B-003 汇入建议: projects/trusted-data-space-power-transfer/branch-b003-handoff.md
+  - 研究系统:
+      - 系统说明: system/research-system.md
+      - 阶段定义: system/phases.md
+      - 新项目清单: system/new-project-checklist.md
+      - 外部技能引入评估: system/external-skill-import-assessment.md
+  - 操作日志: action-log.md
