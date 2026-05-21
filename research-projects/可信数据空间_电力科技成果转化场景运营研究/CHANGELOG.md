@@ -1,5 +1,28 @@
 # 变更记录
 
+## 2026-05-21 B-004 电力行业科技成果转化痛点研究
+
+### 新增
+
+- 新建 `07_branch_research/电力行业科技成果转化痛点研究/`。
+- 形成支线任务单、摘要报告、深研报告、证据表、影响分析和汇入建议。
+
+### 调整
+
+- 将 B-004 结论汇入 `03_outline/论文提纲.md` 第三章。
+- 更新 `09_evidence/evidence_pool.md` 和 `09_evidence/source_manifest.md`。
+- 更新 `07_branch_research/BRANCH_INDEX.md`、`TASK_BOARD.md`、`PROJECT_INDEX.md`、`CURRENT_STATE.md`、`INTEGRATION_LOG.md` 和 `ARTIFACTS.md`。
+
+### 目的
+
+- 为第三章补充现实案例和痛点证据。
+- 将电力科技成果转化断点具体化为成果资产表达、需求场景建模、评价交易采信、工程验证履约和标准扩散复用五类问题。
+
+### 后续影响
+
+- 开题报告草稿可直接吸收第三章现实问题表达。
+- 后续应通过访谈核验五类痛点优先级，并选择 2-3 个典型案例进入论文第六章。
+
 ## 2026-05-21 v0.1
 
 ### 新增
@@ -161,6 +184,123 @@
 ### 后续影响
 
 - B-003 已为“中电联为什么可以作为行业级枢纽主体”提供首轮理论支撑，但仍需补充中电联公开资料和中文行业组织治理文献。
+
+## 2026-05-21 B-001/B-002/B-003 主线汇入
+
+### 修改
+
+- 更新 `05_models/理论分析框架.md`。
+- 更新 `03_outline/论文提纲.md`。
+
+### 汇入内容
+
+- B-001：可信数据空间的“可信管控、资源交互、价值共创”机制。
+- B-002：科技成果转化政策链条和成果资产运营逻辑。
+- B-003：中电联作为行业组织型创新中介、技术经纪组织者、边界组织、平台治理者和生态编排者的理论定位。
+
+### 同步
+
+- 更新 `INTEGRATION_LOG.md`，将 B-001、B-002、B-003 状态推进为 integrated。
+- 更新 `TASK_BOARD.md`、`PROJECT_INDEX.md`、`CURRENT_STATE.md` 和 `REVISION_QUEUE.md`。
+
+### 后续影响
+
+- 下一步应同步修订 `03_outline/开题报告提纲.md`。
+- 之后可进入电力行业政策补强或 B-004 电力行业科技成果转化痛点研究。
+
+## 2026-05-21 开题报告提纲同步修订
+
+### 修改
+
+- 重写 `03_outline/开题报告提纲.md`。
+
+### 调整内容
+
+- 对齐“现实断点-制度基础-数据空间-枢纽治理-运营能力-价值扩散”理论框架。
+- 增加科技成果转化制度基础、可信数据空间政策基础、行业组织与平台治理文献、资料缺口与调研计划。
+- 将“四化一扩散”运营模式和六类场景应用纳入开题报告结构。
+
+### 同步
+
+- 更新 `TASK_BOARD.md`、`PROJECT_INDEX.md`、`CURRENT_STATE.md` 和 `REVISION_QUEUE.md`。
+
+### 后续影响
+
+- 可进入电力行业政策补强、B-004 痛点研究或开题报告草稿 v0.1 写作。
+
+## 2026-05-21 B-007 电力行业政策梳理
+
+### 新增
+
+- 新建 `07_branch_research/电力行业政策梳理/BRANCH_BRIEF.md`。
+- 新建 `07_branch_research/电力行业政策梳理/branch_report.md`。
+- 新建 `07_branch_research/电力行业政策梳理/detailed_report.md`。
+- 新建 `07_branch_research/电力行业政策梳理/evidence_table.md`。
+- 新建 `07_branch_research/电力行业政策梳理/implications_for_main.md`。
+- 新建 `07_branch_research/电力行业政策梳理/handoff_to_main.md`。
+
+### 汇入
+
+- 已将现代能源体系、能源科技创新、新型电力系统、电力系统稳定、能源装备示范、能源重点领域设备更新等政策条目汇入 `04_literature_policy/政策依据表.md`。
+
+### 同步
+
+- 更新 `07_branch_research/BRANCH_INDEX.md`、`TASK_BOARD.md`、`PROJECT_INDEX.md`、`ARTIFACTS.md`、`CURRENT_STATE.md`、`INTEGRATION_LOG.md`、`09_evidence/source_manifest.md` 和 `09_evidence/evidence_pool.md`。
+
+### 后续影响
+
+- 后续应将电力行业政策结论吸收到开题提纲、论文提纲和理论框架，并启动 B-004 痛点研究。
+
+## 2026-05-21 支线深研报告机制增强
+
+### 新增
+
+- 新增 `research-system/templates/branch-template/detailed_report.md`。
+
+### 调整
+
+- 更新 `research-system/templates/branch-template/BRANCH_BRIEF.md`。
+- 更新 `research-system/workflows/mainline-branch-workflow.md`。
+- 将复杂支线的成果包扩展为“摘要报告 + 深研报告 + 证据表 + 影响分析 + 汇入建议”。
+
+### 目的
+
+- 避免支线报告过于提纲化。
+- 为后续正文写作沉淀可直接转写的分析段落、材料细读和判断边界。
+
+## 2026-05-21 B-003 深研报告补充
+
+### 新增
+
+- 新建 `07_branch_research/行业组织与平台治理文献综述/detailed_report.md`。
+
+### 调整
+
+- 更新 `07_branch_research/行业组织与平台治理文献综述/BRANCH_BRIEF.md`。
+- 更新 `07_branch_research/行业组织与平台治理文献综述/branch_report.md`。
+- 更新 `ARTIFACTS.md` 和 `PROJECT_INDEX.md`。
+
+### 目的
+
+- 补厚“为什么中电联可以作为行业级枢纽主体”的理论论证。
+- 沉淀可直接转写到论文第二章和第五章的正文段落。
+
+## 2026-05-21 B-001/B-002 深研报告补充
+
+### 新增
+
+- 新建 `07_branch_research/可信数据空间政策梳理/detailed_report.md`。
+- 新建 `07_branch_research/科技成果转化政策梳理/detailed_report.md`。
+
+### 调整
+
+- 更新 B-001、B-002 的 `BRANCH_BRIEF.md` 和 `branch_report.md`。
+- 更新 `ARTIFACTS.md`、`PROJECT_INDEX.md`、`mkdocs.yml` 和 `scripts/build_research_portal.py`。
+
+### 目的
+
+- 补厚“可信数据空间如何支撑成果转化”和“科技成果转化政策链条如何支撑场景运营模式”的细节论证。
+- 为论文第二章、第四章和第五章沉淀可转写正文段落。
 
 ## 版本规则
 

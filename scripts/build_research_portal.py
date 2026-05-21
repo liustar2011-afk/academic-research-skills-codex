@@ -28,16 +28,27 @@ COPIES = {
     PROJECT / "CLAIM_EVIDENCE_MAP.md": PROJECT_DOCS / "CLAIM_EVIDENCE_MAP.md",
     PROJECT / "HEALTH_CHECK.md": PROJECT_DOCS / "HEALTH_CHECK.md",
     PROJECT / "02_stage_outputs" / "阶段成果_v0.1.md": PROJECT_DOCS / "stage-output-v0.1.md",
+    PROJECT / "03_outline" / "开题报告提纲.md": PROJECT_DOCS / "proposal-outline.md",
     PROJECT / "03_outline" / "论文提纲.md": PROJECT_DOCS / "paper-outline.md",
     PROJECT / "05_models" / "四化一扩散运营模式.md": PROJECT_DOCS / "four-transformations-model.md",
+    PROJECT / "07_branch_research" / "可信数据空间政策梳理" / "branch_report.md": PROJECT_DOCS / "branch-b001-report.md",
+    PROJECT / "07_branch_research" / "可信数据空间政策梳理" / "detailed_report.md": PROJECT_DOCS / "branch-b001-detailed.md",
+    PROJECT / "07_branch_research" / "可信数据空间政策梳理" / "evidence_table.md": PROJECT_DOCS / "branch-b001-evidence.md",
     PROJECT / "07_branch_research" / "科技成果转化政策梳理" / "branch_report.md": PROJECT_DOCS / "branch-b002-report.md",
+    PROJECT / "07_branch_research" / "科技成果转化政策梳理" / "detailed_report.md": PROJECT_DOCS / "branch-b002-detailed.md",
     PROJECT / "07_branch_research" / "科技成果转化政策梳理" / "evidence_table.md": PROJECT_DOCS / "branch-b002-evidence.md",
     PROJECT / "07_branch_research" / "科技成果转化政策梳理" / "implications_for_main.md": PROJECT_DOCS / "branch-b002-implications.md",
     PROJECT / "07_branch_research" / "科技成果转化政策梳理" / "handoff_to_main.md": PROJECT_DOCS / "branch-b002-handoff.md",
     PROJECT / "07_branch_research" / "行业组织与平台治理文献综述" / "branch_report.md": PROJECT_DOCS / "branch-b003-report.md",
+    PROJECT / "07_branch_research" / "行业组织与平台治理文献综述" / "detailed_report.md": PROJECT_DOCS / "branch-b003-detailed.md",
     PROJECT / "07_branch_research" / "行业组织与平台治理文献综述" / "evidence_table.md": PROJECT_DOCS / "branch-b003-evidence.md",
     PROJECT / "07_branch_research" / "行业组织与平台治理文献综述" / "implications_for_main.md": PROJECT_DOCS / "branch-b003-implications.md",
     PROJECT / "07_branch_research" / "行业组织与平台治理文献综述" / "handoff_to_main.md": PROJECT_DOCS / "branch-b003-handoff.md",
+    PROJECT / "07_branch_research" / "电力行业政策梳理" / "branch_report.md": PROJECT_DOCS / "branch-b007-report.md",
+    PROJECT / "07_branch_research" / "电力行业政策梳理" / "detailed_report.md": PROJECT_DOCS / "branch-b007-detailed.md",
+    PROJECT / "07_branch_research" / "电力行业政策梳理" / "evidence_table.md": PROJECT_DOCS / "branch-b007-evidence.md",
+    PROJECT / "07_branch_research" / "电力行业政策梳理" / "implications_for_main.md": PROJECT_DOCS / "branch-b007-implications.md",
+    PROJECT / "07_branch_research" / "电力行业政策梳理" / "handoff_to_main.md": PROJECT_DOCS / "branch-b007-handoff.md",
 }
 
 
@@ -79,7 +90,7 @@ def project_landing() -> str:
   <div class="research-status-card"><strong>当前阶段</strong><span class="status-warn">P2 政策与文献补强前段</span></div>
   <div class="research-status-card"><strong>已完成</strong><span class="status-ok">P0 项目初始化；P1 材料诊断与框架初建；B-001 可信数据空间政策梳理</span></div>
   <div class="research-status-card"><strong>当前主线</strong><span>M-003 政策依据表补强；M-004 文献综述笔记补强</span></div>
-  <div class="research-status-card"><strong>下一步</strong><span>汇入 B-001/B-002/B-003 机制结论；补充电力行业政策；启动 B-004 痛点研究</span></div>
+  <div class="research-status-card"><strong>下一步</strong><span>吸收 B-007 电力政策结论；启动 B-004 痛点研究；生成开题报告草稿</span></div>
 </div>
 
 ## 快速入口

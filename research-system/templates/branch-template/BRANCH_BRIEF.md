@@ -30,6 +30,7 @@
 2. `evidence_table.md`
 3. `implications_for_main.md`
 4. `handoff_to_main.md`
+5. 复杂支线应增加 `detailed_report.md`
 
 ## 边界
 
@@ -41,3 +42,4 @@
 - 区分事实、判断和建议。
 - 明确对主线的影响。
 - 明确仍需验证的内容。
+- 不只给结论，还要展开关键材料的细读、交叉分析和可转写正文段落。

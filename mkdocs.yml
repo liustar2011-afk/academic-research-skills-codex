@@ -55,16 +55,27 @@ nav:
       - 证据状态: projects/trusted-data-space-power-transfer/CLAIM_EVIDENCE_MAP.md
       - 项目健康: projects/trusted-data-space-power-transfer/HEALTH_CHECK.md
       - 当前阶段成果: projects/trusted-data-space-power-transfer/stage-output-v0.1.md
+      - 开题报告提纲: projects/trusted-data-space-power-transfer/proposal-outline.md
       - 论文提纲: projects/trusted-data-space-power-transfer/paper-outline.md
       - 四化一扩散模型: projects/trusted-data-space-power-transfer/four-transformations-model.md
+      - 支线 B-001 报告: projects/trusted-data-space-power-transfer/branch-b001-report.md
+      - 支线 B-001 深研报告: projects/trusted-data-space-power-transfer/branch-b001-detailed.md
+      - 支线 B-001 证据表: projects/trusted-data-space-power-transfer/branch-b001-evidence.md
       - 支线 B-002 报告: projects/trusted-data-space-power-transfer/branch-b002-report.md
+      - 支线 B-002 深研报告: projects/trusted-data-space-power-transfer/branch-b002-detailed.md
       - 支线 B-002 证据表: projects/trusted-data-space-power-transfer/branch-b002-evidence.md
       - 支线 B-002 影响分析: projects/trusted-data-space-power-transfer/branch-b002-implications.md
       - 支线 B-002 汇入建议: projects/trusted-data-space-power-transfer/branch-b002-handoff.md
       - 支线 B-003 报告: projects/trusted-data-space-power-transfer/branch-b003-report.md
+      - 支线 B-003 深研报告: projects/trusted-data-space-power-transfer/branch-b003-detailed.md
       - 支线 B-003 证据表: projects/trusted-data-space-power-transfer/branch-b003-evidence.md
       - 支线 B-003 影响分析: projects/trusted-data-space-power-transfer/branch-b003-implications.md
       - 支线 B-003 汇入建议: projects/trusted-data-space-power-transfer/branch-b003-handoff.md
+      - 支线 B-007 报告: projects/trusted-data-space-power-transfer/branch-b007-report.md
+      - 支线 B-007 深研报告: projects/trusted-data-space-power-transfer/branch-b007-detailed.md
+      - 支线 B-007 证据表: projects/trusted-data-space-power-transfer/branch-b007-evidence.md
+      - 支线 B-007 影响分析: projects/trusted-data-space-power-transfer/branch-b007-implications.md
+      - 支线 B-007 汇入建议: projects/trusted-data-space-power-transfer/branch-b007-handoff.md
   - 研究系统:
       - 系统说明: system/research-system.md
       - 阶段定义: system/phases.md

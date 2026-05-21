@@ -21,3 +21,15 @@
 | S-017 | Gawer, Bridging differing perspectives on technological platforms | 学术文献 | `https://doi.org/10.1016/j.respol.2014.03.006` | 2014 | 平台治理理论 | B | 已进入 B-003 |
 | S-018 | Jacobides, Cennamo & Gawer, Towards a theory of ecosystems | 学术文献 | `https://doi.org/10.1002/smj.2904` | 2018 | 生态系统理论 | B | 已进入 B-003 |
 | S-019 | Watkins et al., National innovation systems and the intermediary role of industry associations | 学术文献 | `https://doi.org/10.1016/j.respol.2014.10.004` | 2015 | 行业协会创新中介作用 | B | 已进入 B-003 |
+| S-020 | 《“十四五”现代能源体系规划》 | 政策 | `https://www.gov.cn/zhengce/zhengceku/2022-03/23/content_5680759.htm` | 2022 | 现代能源体系和能源科技创新背景 | A | 已进入 B-007 |
+| S-021 | 《“十四五”能源领域科技创新规划》 | 政策 | `https://www.nea.gov.cn/2022-04/02/c_1310547313.htm` | 2022 | 能源科技创新方向和成果供给 | A | 已进入 B-007 |
+| S-022 | 《加快构建新型电力系统行动方案（2024—2027年）》 | 政策 | `https://www.ndrc.gov.cn/xxgk/zcfb/tz/202408/t20240806_1392447.html` | 2024 | 新型电力系统场景需求 | A | 已进入 B-007 |
+| S-023 | 《关于加强新型电力系统稳定工作的指导意见》 | 政策 | `https://www.nea.gov.cn/2023-09/27/c_1310744063.htm` | 2023 | 安全稳定和风险边界 | A | 已进入 B-007 |
+| S-024 | 《推动能源重点领域大规模设备更新实施方案》 | 政策 | `https://www.ndrc.gov.cn/xwdt/tzgg/202408/t20240821_1392547.html` | 2024 | 设备更新和技术改造需求 | A | 已进入 B-007 |
+| S-025 | 国家能源局公布第一批能源领域首台（套）重大技术装备项目 | 政策/项目 | `https://www.nea.gov.cn/2021-01/06/c_139644840.htm` | 2021 | 首台套示范、工程化和产业化 | A | 已进入 B-004 |
+| S-026 | 首批科技创新（储能）试点示范项目正式发布 | 项目 | `https://www.nea.gov.cn/2020-12/15/c_139591533.htm` | 2020 | 储能场景适配和试点示范 | A | 已进入 B-004 |
+| S-027 | 全球首座高温气冷堆核电站商业示范工程在我国山东荣成正式商运投产 | 案例 | `https://www.nea.gov.cn/2023-12/06/c_1310753869.htm` | 2023 | 工程验证、连续运行和多主体协同 | A | 已进入 B-004 |
+| S-028 | “高温气冷堆核电站示范工程建设”通过国家能源局综合绩效评价 | 案例 | `https://nnsa.mee.gov.cn/ywdt/hyzx/202412/t20241225_1099290.html` | 2024 | 调试试验、验收评价和履约证据 | A | 已进入 B-004 |
+| S-029 | 2023年度能源行业十大科技创新成果 | 案例/成果 | `https://www.nea.gov.cn/2024-01/30/c_1310762755.htm` | 2024 | 成果资产表达、工程应用和系统集成 | A | 已进入 B-004 |
+| S-030 | 关于召开2024年度电力创新奖职工成果复审会的通知 | 行业评价材料 | `https://huiyi.cec.org.cn/RecordFile/ueditor/jsp/upload/file/20241105/1730770806769049657.pdf` | 2024 | 行业评价流程和评价维度 | B | 已进入 B-004 |
+| S-031 | 关于开展2026年科技成果鉴定工作的通知 | 行业鉴定材料 | `https://www.ces.org.cn/res/ces/2601/a129f8f215909a63efa8f293d89fd78b.pdf` | 2026 | 科技成果鉴定、推广推介、挂网试运行、项目验收和交易支撑 | B | 已进入 B-004 |

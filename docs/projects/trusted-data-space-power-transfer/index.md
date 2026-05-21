@@ -6,7 +6,7 @@
   <div class="research-status-card"><strong>当前阶段</strong><span class="status-warn">P2 政策与文献补强前段</span></div>
   <div class="research-status-card"><strong>已完成</strong><span class="status-ok">P0 项目初始化；P1 材料诊断与框架初建；B-001 可信数据空间政策梳理</span></div>
   <div class="research-status-card"><strong>当前主线</strong><span>M-003 政策依据表补强；M-004 文献综述笔记补强</span></div>
-  <div class="research-status-card"><strong>下一步</strong><span>汇入 B-001/B-002/B-003 机制结论；补充电力行业政策；启动 B-004 痛点研究</span></div>
+  <div class="research-status-card"><strong>下一步</strong><span>吸收 B-007 电力政策结论；启动 B-004 痛点研究；生成开题报告草稿</span></div>
 </div>
 
 ## 快速入口

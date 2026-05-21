@@ -43,6 +43,7 @@
 2. `evidence_table.md`
 3. `implications_for_main.md`
 4. `handoff_to_main.md`
+5. `detailed_report.md`
 
 ## 边界
 

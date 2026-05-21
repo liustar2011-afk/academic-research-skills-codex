@@ -34,17 +34,30 @@
 | Review Log | 复核记录 | active | `review_log.md` |
 | Artifact Manifest | 成果清单 | active | `artifact_manifest.md` |
 | 可信数据空间政策梳理支线报告 | 支线研究 | completed | `07_branch_research/可信数据空间政策梳理/branch_report.md` |
+| 可信数据空间政策深研报告 | 支线深研 | completed | `07_branch_research/可信数据空间政策梳理/detailed_report.md` |
 | 可信数据空间政策证据表 | 支线研究 | completed | `07_branch_research/可信数据空间政策梳理/evidence_table.md` |
 | 可信数据空间政策影响分析 | 支线研究 | completed | `07_branch_research/可信数据空间政策梳理/implications_for_main.md` |
 | 可信数据空间政策汇入建议 | 支线研究 | completed | `07_branch_research/可信数据空间政策梳理/handoff_to_main.md` |
 | 科技成果转化政策梳理支线报告 | 支线研究 | completed | `07_branch_research/科技成果转化政策梳理/branch_report.md` |
+| 科技成果转化政策深研报告 | 支线深研 | completed | `07_branch_research/科技成果转化政策梳理/detailed_report.md` |
 | 科技成果转化政策证据表 | 支线研究 | completed | `07_branch_research/科技成果转化政策梳理/evidence_table.md` |
 | 科技成果转化政策影响分析 | 支线研究 | completed | `07_branch_research/科技成果转化政策梳理/implications_for_main.md` |
 | 科技成果转化政策汇入建议 | 支线研究 | completed | `07_branch_research/科技成果转化政策梳理/handoff_to_main.md` |
 | 行业组织与平台治理文献综述支线报告 | 支线研究 | completed | `07_branch_research/行业组织与平台治理文献综述/branch_report.md` |
+| 行业组织与平台治理深研报告 | 支线深研 | completed | `07_branch_research/行业组织与平台治理文献综述/detailed_report.md` |
 | 行业组织与平台治理文献证据表 | 支线研究 | completed | `07_branch_research/行业组织与平台治理文献综述/evidence_table.md` |
 | 行业组织与平台治理影响分析 | 支线研究 | completed | `07_branch_research/行业组织与平台治理文献综述/implications_for_main.md` |
 | 行业组织与平台治理汇入建议 | 支线研究 | completed | `07_branch_research/行业组织与平台治理文献综述/handoff_to_main.md` |
+| 电力行业政策梳理支线报告 | 支线研究 | completed | `07_branch_research/电力行业政策梳理/branch_report.md` |
+| 电力行业政策深研报告 | 支线深研 | completed | `07_branch_research/电力行业政策梳理/detailed_report.md` |
+| 电力行业政策证据表 | 支线研究 | completed | `07_branch_research/电力行业政策梳理/evidence_table.md` |
+| 电力行业政策影响分析 | 支线研究 | completed | `07_branch_research/电力行业政策梳理/implications_for_main.md` |
+| 电力行业政策汇入建议 | 支线研究 | completed | `07_branch_research/电力行业政策梳理/handoff_to_main.md` |
+| 电力行业科技成果转化痛点支线报告 | 支线研究 | completed | `07_branch_research/电力行业科技成果转化痛点研究/branch_report.md` |
+| 电力行业科技成果转化痛点深研报告 | 支线深研 | completed | `07_branch_research/电力行业科技成果转化痛点研究/detailed_report.md` |
+| 电力行业科技成果转化痛点证据表 | 支线研究 | completed | `07_branch_research/电力行业科技成果转化痛点研究/evidence_table.md` |
+| 电力行业科技成果转化痛点影响分析 | 支线研究 | completed | `07_branch_research/电力行业科技成果转化痛点研究/implications_for_main.md` |
+| 电力行业科技成果转化痛点汇入建议 | 支线研究 | completed | `07_branch_research/电力行业科技成果转化痛点研究/handoff_to_main.md` |
 
 ## 预留成果物
 

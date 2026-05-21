@@ -90,6 +90,22 @@ flowchart TD
 - `implications_for_main.md`
 - `handoff_to_main.md`
 
+复杂支线应增加：
+
+- `detailed_report.md`
+
+其中 `branch_report.md` 用于快速了解结论，`detailed_report.md` 用于沉淀深度分析。政策梳理、文献综述和案例研究如果要支撑正文写作，原则上都应包含 `detailed_report.md`。
+
+`detailed_report.md` 至少应包含：
+
+- 研究问题再界定。
+- 材料与证据范围。
+- 逐项材料细读。
+- 政策、文献或案例之间的交叉分析。
+- 对主线章节的具体支撑。
+- 可转写为正文的论证段落。
+- 判断边界和后续资料需求。
+
 ### Step 5：主线审查
 
 主线读取 `handoff_to_main.md`，判断：
@@ -131,3 +147,4 @@ flowchart TD
 3. 支线不得把未经验证的结论写入主线定稿。
 4. 支线不得只给结论而不提供证据来源。
 5. 主线不得吸收支线成果而不记录变更。
+6. 复杂支线不得只有提纲式摘要；若用户认为细节不足，应补充 `detailed_report.md`。

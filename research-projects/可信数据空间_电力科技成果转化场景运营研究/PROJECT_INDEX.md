@@ -80,18 +80,20 @@
 |---|---|---|---|---|---|---|
 | M-001 | P0 | 项目初始化 | 用户提出需要项目隔离和成果目录 | done | `README.md`、`PROJECT_INDEX.md`、`CURRENT_STATE.md`、`研究边界.md` | 持续维护 |
 | M-002 | P1 | 材料诊断与框架初建 | Word、PPT、Excel 本地材料；用户要求“参考但不依赖” | done/current baseline | `02_stage_outputs/阶段成果_v0.1.md`、`03_outline/开题报告提纲.md`、`03_outline/论文提纲.md`、`05_models/理论分析框架.md`、`05_models/四化一扩散运营模式.md` | 在 P2 证据补强后形成 v0.2 |
-| M-003 | P2 | 政策依据表补强 | P1 资料缺口；需支撑可信数据空间、成果转化、电力行业政策 | in_progress | `04_literature_policy/政策依据表.md`；已完成可信数据空间政策支线、科技成果转化政策支线 | 补充电力行业政策或科技金融政策 |
-| M-004 | P2 | 文献综述笔记补强 | P1 判断“理论支撑不足” | in_progress | `04_literature_policy/文献综述笔记.md`；已完成行业组织与平台治理文献综述支线 | 补科技金融、知识产权或电力行业案例文献 |
-| M-005 | P3 | 开题报告草稿 v0.1 | 需要 P2 政策和文献首轮支撑 | pending | `06_drafts/开题报告草稿.md` | P2 首轮完成后生成 |
+| M-003 | P2 | 政策依据表补强 | P1 资料缺口；需支撑可信数据空间、成果转化、电力行业政策 | in_progress | `04_literature_policy/政策依据表.md`；已完成可信数据空间政策支线、科技成果转化政策支线、电力行业政策支线 | 补充科技金融、标准化或绿色低碳政策 |
+| M-004 | P2 | 文献综述笔记补强 | P1 判断“理论支撑不足” | in_progress | `04_literature_policy/文献综述笔记.md`；已完成行业组织与平台治理文献综述支线、电力行业科技成果转化痛点支线 | 补科技金融、知识产权或电力行业案例文献 |
+| M-005 | P2/P3 | 论文提纲、理论框架和开题提纲主线汇入 | B-001、B-002、B-003、B-007、B-004 支线成果 | done/current baseline | `03_outline/论文提纲.md`、`05_models/理论分析框架.md`、`03_outline/开题报告提纲.md` | 进入开题报告草稿 |
+| M-006 | P3 | 开题报告草稿 v0.1 | 需要 P2 政策和文献首轮支撑 | pending | `06_drafts/开题报告草稿.md` | P2 首轮完成后生成 |
 
 ## 支线任务总表
 
 | 编号 | 阶段 | 支线任务 | 服务主线任务/章节 | 状态 | 已有过程成果物 | 汇入状态 | 下一步 |
 |---|---|---|---|---|---|---|---|
-| B-001 | P2 | 可信数据空间政策梳理 | M-003；论文第二章、第四章 | completed | `BRANCH_BRIEF.md`、`branch_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 部分汇入：`04_literature_policy/政策依据表.md` | 用户确认后再汇入理论框架和论文提纲 |
-| B-002 | P2 | 科技成果转化政策梳理 | M-003；论文第二章、第三章 | completed | `BRANCH_BRIEF.md`、`branch_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 部分汇入：`04_literature_policy/政策依据表.md` | 后续汇入理论框架和论文提纲 |
-| B-003 | P2 | 行业组织与平台治理文献综述 | M-004；论文第二章、第五章 | completed | `BRANCH_BRIEF.md`、`branch_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 部分汇入：`04_literature_policy/文献综述笔记.md` | 后续汇入理论框架和论文提纲 |
-| B-004 | P2 | 电力行业科技成果转化痛点研究 | 论文第三章 | planned | 无 | 未汇入 | 后续启动 |
+| B-001 | P2 | 可信数据空间政策梳理 | M-003；论文第二章、第四章 | integrated | `BRANCH_BRIEF.md`、`branch_report.md`、`detailed_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 已汇入：政策依据表、理论框架、论文提纲 | 后续补电力行业案例 |
+| B-002 | P2 | 科技成果转化政策梳理 | M-003；论文第二章、第三章 | integrated | `BRANCH_BRIEF.md`、`branch_report.md`、`detailed_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 已汇入：政策依据表、理论框架、论文提纲 | 后续补科技金融和知识产权边界 |
+| B-003 | P2 | 行业组织与平台治理文献综述 | M-004；论文第二章、第五章 | integrated | `BRANCH_BRIEF.md`、`branch_report.md`、`detailed_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 已汇入：文献综述笔记、理论框架、论文提纲 | 后续补中电联公开资料和中文文献 |
+| B-007 | P2 | 电力行业政策梳理 | M-003；论文第二章、第三章、第五章 | integrated | `BRANCH_BRIEF.md`、`branch_report.md`、`detailed_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 已汇入：政策依据表、开题提纲、论文提纲、理论框架 | 后续通过 B-004 补现实痛点证据 |
+| B-004 | P2 | 电力行业科技成果转化痛点研究 | 论文第三章 | integrated | `BRANCH_BRIEF.md`、`branch_report.md`、`detailed_report.md`、`evidence_table.md`、`implications_for_main.md`、`handoff_to_main.md` | 已汇入：论文第三章、证据池、来源清单 | 后续通过访谈核验痛点优先级 |
 | B-005 | P2/P5 | 科技金融与知识产权运营案例研究 | 论文第六章、第七章 | planned | 无 | 未汇入 | 后续启动 |
 | B-006 | P2/P5 | 跨行业扩散与产业服务案例研究 | 论文第六章 | planned | 无 | 未汇入 | 后续启动 |
 
@@ -103,10 +105,11 @@
 
 | 支线 | 为什么启动 | 解决哪个主线缺口 | 汇入哪里 |
 |---|---|---|---|
-| B-001 可信数据空间政策梳理 | P1 发现可信数据空间机制缺少政策依据 | 补足数据基础设施、可信流通、数据使用控制、合规治理依据 | 已汇入 `政策依据表`；待汇入理论框架和论文提纲 |
-| B-002 科技成果转化政策梳理 | 政策依据表仍缺成果转化政策 | 支撑成果转化链条、成果评价、技术转移、职务成果赋权和知识产权运营 | 已汇入 `政策依据表`；待汇入理论框架和论文提纲 |
-| B-003 行业组织与平台治理文献综述 | 中电联枢纽主体缺少理论依据 | 支撑行业组织、创新中介、边界组织、平台治理、生态运营论证 | 已汇入 `文献综述笔记`；待汇入理论框架和论文提纲 |
-| B-004 电力行业科技成果转化痛点研究 | 第三章现实断点需要外部证据 | 补足痛点证据 | 待汇入阶段成果 v0.2 和论文第三章 |
+| B-001 可信数据空间政策梳理 | P1 发现可信数据空间机制缺少政策依据 | 补足数据基础设施、可信流通、数据使用控制、合规治理依据 | 已汇入 `政策依据表`、理论框架和论文提纲 |
+| B-002 科技成果转化政策梳理 | 政策依据表仍缺成果转化政策 | 支撑成果转化链条、成果评价、技术转移、职务成果赋权和知识产权运营 | 已汇入 `政策依据表`、理论框架和论文提纲 |
+| B-003 行业组织与平台治理文献综述 | 中电联枢纽主体缺少理论依据 | 支撑行业组织、创新中介、边界组织、平台治理、生态运营论证 | 已汇入 `文献综述笔记`、理论框架和论文提纲 |
+| B-007 电力行业政策梳理 | 电力行业场景必要性和工程属性缺少政策依据 | 支撑新型电力系统、能源科技创新、工程落地、安全稳定和设备更新需求 | 已汇入 `政策依据表`、开题提纲、论文提纲和理论框架 |
+| B-004 电力行业科技成果转化痛点研究 | 第三章现实断点需要外部证据 | 补足痛点证据 | 已汇入论文第三章、证据池和来源清单 |
 | B-005 科技金融与知识产权运营案例研究 | 扩展场景和风险边界证据不足 | 支撑科技金融、知识产权、可信履约边界 | 待汇入论文第六/七章 |
 | B-006 跨行业扩散与产业服务案例研究 | “生态扩散化”证据较弱 | 支撑跨行业复制与产业服务衍生 | 待汇入运营模式和论文第六章 |
 
@@ -120,36 +123,49 @@
 | A-004 | M-002 | 理论分析框架 | 模型 | draft | `05_models/理论分析框架.md` |
 | A-005 | M-002 | “四化一扩散”运营模式 | 模型 | draft | `05_models/四化一扩散运营模式.md` |
 | A-006 | B-001 | 可信数据空间政策支线报告 | 支线研究 | completed | `07_branch_research/可信数据空间政策梳理/branch_report.md` |
-| A-007 | B-001 | 可信数据空间政策证据表 | 证据表 | completed | `07_branch_research/可信数据空间政策梳理/evidence_table.md` |
-| A-008 | B-001 | 可信数据空间政策影响分析 | 影响分析 | completed | `07_branch_research/可信数据空间政策梳理/implications_for_main.md` |
-| A-009 | B-001 | 可信数据空间政策汇入建议 | 汇入建议 | completed | `07_branch_research/可信数据空间政策梳理/handoff_to_main.md` |
-| A-010 | M-003 | 政策依据表 | 政策资料 | in_progress | `04_literature_policy/政策依据表.md` |
-| A-011 | M-004 | 文献综述笔记 | 文献资料 | pending | `04_literature_policy/文献综述笔记.md` |
-| A-012 | M-005 | 开题报告草稿 | 草稿 | pending | `06_drafts/开题报告草稿.md` |
-| A-013 | 全局管理 | 主线-支线关联矩阵 | 任务关系 | active | `MAIN_BRANCH_MAP.md` |
-| A-014 | 全局管理 | 任务-成果物关联矩阵 | 任务-成果关系 | active | `TASK_ARTIFACT_MAP.md` |
-| A-015 | 全局管理 | 项目健康检查 | 健康检查 | active | `HEALTH_CHECK.md` |
-| A-016 | 全局管理 | 结论-证据映射表 | 证据管理 | active | `CLAIM_EVIDENCE_MAP.md` |
-| A-017 | 全局管理 | 支线汇入日志 | 汇入管理 | active | `INTEGRATION_LOG.md` |
-| A-018 | 全局管理 | 问题停车场 | 问题管理 | active | `QUESTION_PARKING_LOT.md` |
-| A-019 | M-001/M-002 | 研究任务书 | 研究启动 | draft | `00_project_brief/研究任务书.md` |
-| A-020 | M-002/M-003 | 假设日志 | 研究方法 | active | `HYPOTHESIS_LOG.md` |
-| A-021 | M-003/M-004 | 来源清单 | 证据管理 | active | `09_evidence/source_manifest.md` |
-| A-022 | M-003/M-004 | 证据池 | 证据管理 | draft | `09_evidence/evidence_pool.md` |
-| A-023 | M-003/M-004 | 证据缺口 | 证据管理 | active | `09_evidence/evidence_gap.md` |
-| A-024 | M-003/M-004 | 待核验清单 | 证据管理 | active | `09_evidence/verification_todo.md` |
-| A-025 | M-005 | 研究成果资产 | 综合母本 | pending | `06_synthesis/research_asset.md` |
-| A-026 | 全局管理 | 领域适配器选择 | 领域口径 | active | `10_domain_adapter/domain_selection.md` |
-| A-027 | 全局管理 | Review Log | 复核记录 | active | `review_log.md` |
-| A-028 | 全局管理 | Artifact Manifest | 成果清单 | active | `artifact_manifest.md` |
-| A-029 | B-002 | 科技成果转化政策支线报告 | 支线研究 | completed | `07_branch_research/科技成果转化政策梳理/branch_report.md` |
-| A-030 | B-002 | 科技成果转化政策证据表 | 证据表 | completed | `07_branch_research/科技成果转化政策梳理/evidence_table.md` |
-| A-031 | B-002 | 科技成果转化政策影响分析 | 影响分析 | completed | `07_branch_research/科技成果转化政策梳理/implications_for_main.md` |
-| A-032 | B-002 | 科技成果转化政策汇入建议 | 汇入建议 | completed | `07_branch_research/科技成果转化政策梳理/handoff_to_main.md` |
-| A-033 | B-003 | 行业组织与平台治理文献综述支线报告 | 支线研究 | completed | `07_branch_research/行业组织与平台治理文献综述/branch_report.md` |
-| A-034 | B-003 | 行业组织与平台治理文献证据表 | 证据表 | completed | `07_branch_research/行业组织与平台治理文献综述/evidence_table.md` |
-| A-035 | B-003 | 行业组织与平台治理影响分析 | 影响分析 | completed | `07_branch_research/行业组织与平台治理文献综述/implications_for_main.md` |
-| A-036 | B-003 | 行业组织与平台治理汇入建议 | 汇入建议 | completed | `07_branch_research/行业组织与平台治理文献综述/handoff_to_main.md` |
+| A-007 | B-001 | 可信数据空间政策深研报告 | 支线深研 | completed | `07_branch_research/可信数据空间政策梳理/detailed_report.md` |
+| A-008 | B-001 | 可信数据空间政策证据表 | 证据表 | completed | `07_branch_research/可信数据空间政策梳理/evidence_table.md` |
+| A-009 | B-001 | 可信数据空间政策影响分析 | 影响分析 | completed | `07_branch_research/可信数据空间政策梳理/implications_for_main.md` |
+| A-010 | B-001 | 可信数据空间政策汇入建议 | 汇入建议 | completed | `07_branch_research/可信数据空间政策梳理/handoff_to_main.md` |
+| A-011 | M-003 | 政策依据表 | 政策资料 | in_progress | `04_literature_policy/政策依据表.md` |
+| A-012 | M-004 | 文献综述笔记 | 文献资料 | pending | `04_literature_policy/文献综述笔记.md` |
+| A-013 | M-005 | 开题报告草稿 | 草稿 | pending | `06_drafts/开题报告草稿.md` |
+| A-014 | 全局管理 | 主线-支线关联矩阵 | 任务关系 | active | `MAIN_BRANCH_MAP.md` |
+| A-015 | 全局管理 | 任务-成果物关联矩阵 | 任务-成果关系 | active | `TASK_ARTIFACT_MAP.md` |
+| A-016 | 全局管理 | 项目健康检查 | 健康检查 | active | `HEALTH_CHECK.md` |
+| A-017 | 全局管理 | 结论-证据映射表 | 证据管理 | active | `CLAIM_EVIDENCE_MAP.md` |
+| A-018 | 全局管理 | 支线汇入日志 | 汇入管理 | active | `INTEGRATION_LOG.md` |
+| A-019 | 全局管理 | 问题停车场 | 问题管理 | active | `QUESTION_PARKING_LOT.md` |
+| A-020 | M-001/M-002 | 研究任务书 | 研究启动 | draft | `00_project_brief/研究任务书.md` |
+| A-021 | M-002/M-003 | 假设日志 | 研究方法 | active | `HYPOTHESIS_LOG.md` |
+| A-022 | M-003/M-004 | 来源清单 | 证据管理 | active | `09_evidence/source_manifest.md` |
+| A-023 | M-003/M-004 | 证据池 | 证据管理 | draft | `09_evidence/evidence_pool.md` |
+| A-024 | M-003/M-004 | 证据缺口 | 证据管理 | active | `09_evidence/evidence_gap.md` |
+| A-025 | M-003/M-004 | 待核验清单 | 证据管理 | active | `09_evidence/verification_todo.md` |
+| A-026 | M-005 | 研究成果资产 | 综合母本 | pending | `06_synthesis/research_asset.md` |
+| A-027 | 全局管理 | 领域适配器选择 | 领域口径 | active | `10_domain_adapter/domain_selection.md` |
+| A-028 | 全局管理 | Review Log | 复核记录 | active | `review_log.md` |
+| A-029 | 全局管理 | Artifact Manifest | 成果清单 | active | `artifact_manifest.md` |
+| A-030 | B-002 | 科技成果转化政策支线报告 | 支线研究 | completed | `07_branch_research/科技成果转化政策梳理/branch_report.md` |
+| A-031 | B-002 | 科技成果转化政策深研报告 | 支线深研 | completed | `07_branch_research/科技成果转化政策梳理/detailed_report.md` |
+| A-032 | B-002 | 科技成果转化政策证据表 | 证据表 | completed | `07_branch_research/科技成果转化政策梳理/evidence_table.md` |
+| A-033 | B-002 | 科技成果转化政策影响分析 | 影响分析 | completed | `07_branch_research/科技成果转化政策梳理/implications_for_main.md` |
+| A-034 | B-002 | 科技成果转化政策汇入建议 | 汇入建议 | completed | `07_branch_research/科技成果转化政策梳理/handoff_to_main.md` |
+| A-035 | B-003 | 行业组织与平台治理文献综述支线报告 | 支线研究 | completed | `07_branch_research/行业组织与平台治理文献综述/branch_report.md` |
+| A-036 | B-003 | 行业组织与平台治理深研报告 | 支线深研 | completed | `07_branch_research/行业组织与平台治理文献综述/detailed_report.md` |
+| A-037 | B-003 | 行业组织与平台治理文献证据表 | 证据表 | completed | `07_branch_research/行业组织与平台治理文献综述/evidence_table.md` |
+| A-038 | B-003 | 行业组织与平台治理影响分析 | 影响分析 | completed | `07_branch_research/行业组织与平台治理文献综述/implications_for_main.md` |
+| A-039 | B-003 | 行业组织与平台治理汇入建议 | 汇入建议 | completed | `07_branch_research/行业组织与平台治理文献综述/handoff_to_main.md` |
+| A-040 | B-007 | 电力行业政策支线报告 | 支线研究 | completed | `07_branch_research/电力行业政策梳理/branch_report.md` |
+| A-041 | B-007 | 电力行业政策深研报告 | 支线深研 | completed | `07_branch_research/电力行业政策梳理/detailed_report.md` |
+| A-042 | B-007 | 电力行业政策证据表 | 证据表 | completed | `07_branch_research/电力行业政策梳理/evidence_table.md` |
+| A-043 | B-007 | 电力行业政策影响分析 | 影响分析 | completed | `07_branch_research/电力行业政策梳理/implications_for_main.md` |
+| A-044 | B-007 | 电力行业政策汇入建议 | 汇入建议 | completed | `07_branch_research/电力行业政策梳理/handoff_to_main.md` |
+| A-045 | B-004 | 电力行业科技成果转化痛点支线报告 | 支线研究 | completed | `07_branch_research/电力行业科技成果转化痛点研究/branch_report.md` |
+| A-046 | B-004 | 电力行业科技成果转化痛点深研报告 | 支线深研 | completed | `07_branch_research/电力行业科技成果转化痛点研究/detailed_report.md` |
+| A-047 | B-004 | 电力行业科技成果转化痛点证据表 | 证据表 | completed | `07_branch_research/电力行业科技成果转化痛点研究/evidence_table.md` |
+| A-048 | B-004 | 电力行业科技成果转化痛点影响分析 | 影响分析 | completed | `07_branch_research/电力行业科技成果转化痛点研究/implications_for_main.md` |
+| A-049 | B-004 | 电力行业科技成果转化痛点汇入建议 | 汇入建议 | completed | `07_branch_research/电力行业科技成果转化痛点研究/handoff_to_main.md` |
 
 ## 任务-成果物关联摘要
 
@@ -183,9 +199,9 @@
 
 | 项目 | 当前状态 | 文件 |
 |---|---|---|
-| 项目健康 | 基本健康，但存在证据补强和支线未完全汇入风险 | `HEALTH_CHECK.md` |
-| 结论证据 | 可信数据空间相关结论已获 E1/E2 支撑；中电联主体、“四化一扩散”、生态扩散仍待补强 | `CLAIM_EVIDENCE_MAP.md` |
-| 支线汇入 | B-001 已部分汇入政策依据表，尚未汇入理论框架和论文提纲 | `INTEGRATION_LOG.md` |
+| 项目健康 | 基本健康，但中电联公开资料、科技金融/知识产权边界和生态扩散证据仍待补强 | `HEALTH_CHECK.md` |
+| 结论证据 | 可信数据空间、成果转化政策、电力行业政策和第三章痛点已有首轮支撑；中电联主体、“四化一扩散”、生态扩散仍待补强 | `CLAIM_EVIDENCE_MAP.md` |
+| 支线汇入 | B-001、B-002、B-003、B-007、B-004 已完成主线汇入；B-005、B-006 待启动 | `INTEGRATION_LOG.md` |
 | 停放问题 | 已登记资质、连接器试点、科技金融定位、模型命名、4 类/7 类服务关系等问题 | `QUESTION_PARKING_LOT.md` |
 
 ## 最近进展
@@ -202,10 +218,10 @@
 
 ## 下一步任务
 
-1. 将 B-001、B-002、B-003 的机制结论进一步汇入 `05_models/理论分析框架.md` 和 `03_outline/论文提纲.md`。
-2. 补充电力行业科技创新与成果转化政策，继续补强 M-003。
-3. 启动 B-004“电力行业科技成果转化痛点研究”支线。
-4. P2 首轮完成后，将 `06_drafts/开题报告草稿.md` 扩展为 `开题报告草稿_v0.1.md`。
+1. 生成 `06_drafts/开题报告草稿_v0.1.md`。
+2. 继续补充科技金融、知识产权运营或标准化政策边界。
+3. 选择 2-3 个典型案例进入论文第六章。
+4. 通过访谈核验 B-004 五类痛点优先级。
 
 ## 支线研究
 
