@@ -82,7 +82,8 @@ The strongest regression signals are at stage transitions:
 ## What this run does NOT prove
 
 - It does not exercise `ARS_CROSS_MODEL` cross-model verification (would
-  require `ANTHROPIC_API_KEY` and is opt-in per ars-codex README).
+  require external provider credentials and explicit consent per ars-codex
+  README).
 - It does not exercise `systematic-review` mode (PRISMA) or the
   `experiment-agent` workflow.
 - It does not run `academic-paper full` mode (which would invoke the
