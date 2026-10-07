@@ -27,9 +27,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 MENTOR_AGENT = REPO_ROOT / "deep-research" / "agents" / "socratic_mentor_agent.md"
 SOCRATIC_PROTOCOL = REPO_ROOT / "deep-research" / "references" / "socratic_mode_protocol.md"
-DEEP_RESEARCH_SKILL = REPO_ROOT / "deep-research" / "WORKFLOW.md"
-README_EN = REPO_ROOT / "README.md"
-README_ZH = REPO_ROOT / "README.zh-TW.md"
+DEEP_RESEARCH_SKILL = (
+    REPO_ROOT / "deep-research" / "WORKFLOW.md"
+    if (REPO_ROOT / "deep-research" / "WORKFLOW.md").is_file()
+    else REPO_ROOT / "deep-research" / "SKILL.md"
+)
+SETUP_EN = REPO_ROOT / "docs" / "SETUP.md"
+SETUP_ZH = REPO_ROOT / "docs" / "SETUP.zh-TW.md"
 PIPELINE_PROCESS_SUMMARY = REPO_ROOT / "academic-pipeline" / "references" / "process_summary_protocol.md"
 COLLABORATION_RUBRIC = REPO_ROOT / "shared" / "collaboration_depth_rubric.md"
 COMPLIANCE_SCHEMA = REPO_ROOT / "shared" / "schemas" / "compliance_report.schema.json"
@@ -82,15 +86,21 @@ class ReadingProbeLintTests(unittest.TestCase):
         not attempt to catch lower-case drift since spec mandates all-caps.
         """
         expected = "ARS_SOCRATIC_READING_PROBE"
-        # Spec §5.1 item 2: "agent, protocol, SKILL, README".
+        # Spec §5.1 item 2: "agent, protocol, SKILL, README". The README
+        # surface moved to docs/SETUP.md (en / zh-TW flag table) on
+        # 2026-09-15 (#870): the READMEs only ever carried the var inside
+        # the v3.5.1 release summary, which no longer lives there.
         # process_summary_protocol is excluded — it carries the [READING-PROBE:]
         # pickup rule (tested separately by test_probe_tag_format), not the env var.
-        files = [MENTOR_AGENT, SOCRATIC_PROTOCOL, DEEP_RESEARCH_SKILL, README_EN, README_ZH]
+        files = [MENTOR_AGENT, SOCRATIC_PROTOCOL, DEEP_RESEARCH_SKILL, SETUP_EN, SETUP_ZH]
         for f in files:
             text = f.read_text(encoding="utf-8")
             self.assertIn(expected, text,
                           f"{f.relative_to(REPO_ROOT)} missing env var {expected!r}")
-            wrong_cases = re.findall(r"\bARS_SOCRATIC[_A-Z]*\b", text)
+            # Police ONLY the READING-probe var's own casing/typos. Sibling
+            # socratic env vars (e.g. ARS_SOCRATIC_ADJACENT_PROBE) are legitimate
+            # and must not be mis-flagged as drift — match the READING stem only.
+            wrong_cases = re.findall(r"\bARS_SOCRATIC_READING[_A-Z]*\b", text)
             for hit in wrong_cases:
                 self.assertEqual(hit, expected,
                                  f"{f.relative_to(REPO_ROOT)} has case-drifted "
